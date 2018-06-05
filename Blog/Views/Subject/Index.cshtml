@@ -1,0 +1,73 @@
+﻿@model IEnumerable<PB.Domain.Subject>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12 col-md-8 my-2">
+            <div class="card my-2">
+                <div class="card-body">
+
+                    <h2 class="text-center">Assuntos</h2>
+                    <br />
+                    <table class="table">
+                        <tr>
+                            <th>
+                                DESCRIÇÃO
+                            </th>
+                            <th></th>
+                        </tr>
+
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.description)
+                                </td>
+                                <td>
+                                    <div class="float-right">
+                                        @Html.ActionLink("Editar", "Edit", new { item.subject_code }, new { @class = "btn btn-warning btn-sm text-white"})
+                                        <a href="#" data-toggle="modal" data-target="#modalDelete_@Html.DisplayFor(modelItem => item.subject_code)" class="btn btn-danger btn-sm">Excluir</a>
+                                    </div>
+                                </td>
+                            </tr>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="modalDelete_@Html.DisplayFor(modelItem => item.subject_code)" tabindex="-1" role="dialog" aria-labelledby="modalDelete_@Html.DisplayFor(modelItem => item.subject_code)Label" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="modalDelete_@Html.DisplayFor(modelItem => item.subject_code)Label">Excluir Assunto!</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Se você excluir esse assunto, estará excluindo também todas as postagens relaciondas a ele!
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                                            @Html.ActionLink("Confirmar", "Delete", new { item.subject_code }, new { @class = "btn btn-danger"})
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-4 my-2">
+            <div class="card my-2">
+                <div class="card-body">
+                    <h6>Mais Opções</h6>
+                    <hr>
+                    @Html.ActionLink("Adicionar Assunto", "Insert", new { htmlAttributes = new { @class = "mr-2" } })
+                </div>
+            </div>
+        </div>
+    </div>
+
+

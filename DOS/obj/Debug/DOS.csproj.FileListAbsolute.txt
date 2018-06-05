@@ -1,0 +1,14 @@
+C:\Users\Vitor Hugo\source\repos\ProjetoBlog\DOS\bin\Debug\DOS.exe.config
+C:\Users\Vitor Hugo\source\repos\ProjetoBlog\DOS\bin\Debug\DOS.exe
+C:\Users\Vitor Hugo\source\repos\ProjetoBlog\DOS\bin\Debug\DOS.pdb
+C:\Users\Vitor Hugo\source\repos\ProjetoBlog\DOS\obj\Debug\DOS.csprojAssemblyReference.cache
+C:\Users\Vitor Hugo\source\repos\ProjetoBlog\DOS\obj\Debug\DOS.csproj.CoreCompileInputs.cache
+C:\Users\Vitor Hugo\source\repos\ProjetoBlog\DOS\obj\Debug\DOS.exe
+C:\Users\Vitor Hugo\source\repos\ProjetoBlog\DOS\obj\Debug\DOS.pdb
+C:\Users\Vitor Hugo\source\repos\ProjetoBlog\DOS\bin\Debug\PB.Application.dll
+C:\Users\Vitor Hugo\source\repos\ProjetoBlog\DOS\bin\Debug\PB.Dominio.dll
+C:\Users\Vitor Hugo\source\repos\ProjetoBlog\DOS\bin\Debug\DB.dll
+C:\Users\Vitor Hugo\source\repos\ProjetoBlog\DOS\bin\Debug\PB.Application.pdb
+C:\Users\Vitor Hugo\source\repos\ProjetoBlog\DOS\bin\Debug\PB.Dominio.pdb
+C:\Users\Vitor Hugo\source\repos\ProjetoBlog\DOS\bin\Debug\DB.pdb
+C:\Users\Vitor Hugo\source\repos\ProjetoBlog\DOS\obj\Debug\DOS.csproj.CopyComplete

@@ -1,0 +1,36 @@
+﻿@model IEnumerable<PB.Domain.Posting>
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12 col-md-8 my-2">
+
+            @foreach (var posting in Model)
+            {
+                <div class="card my-2">
+                    <div class="card-body">
+                        <h5 class="card-title">@Html.DisplayFor(postingModel => posting.title)</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">@Html.DisplayFor(postingModel => posting.views) Visualizações</h6>
+                        <hr>
+                        <p class="card-text text-justify text-truncate">
+                            @Html.DisplayFor(postingModel => posting.body_text)
+                            <br />
+                        </p>
+                        @Html.ActionLink( "Visualizar Postagem", "ViewPosting", new { posting_code = posting.posting_code})
+                    </div>
+                </div>
+            }
+        </div>
+        <div class="col-sm-12 col-md-4 my-2">
+            <div class="card my-2">
+                <div class="card-body">
+                    <h6>Mais Opções</h6>
+                    <hr>
+                    @Html.ActionLink("Adicionar Postagem", "Insert", new { htmlAttributes = new { @class = "mr-2" } })
+                </div>
+            </div>
+        </div>
+    </div>
+

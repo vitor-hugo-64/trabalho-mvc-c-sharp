@@ -1,0 +1,6 @@
+C:\Users\Vitor Hugo\source\repos\ProjetoBlog\PB.Dominio\bin\Debug\PB.Dominio.dll
+C:\Users\Vitor Hugo\source\repos\ProjetoBlog\PB.Dominio\bin\Debug\PB.Dominio.pdb
+C:\Users\Vitor Hugo\source\repos\ProjetoBlog\PB.Dominio\obj\Debug\PB.Domain.csprojAssemblyReference.cache
+C:\Users\Vitor Hugo\source\repos\ProjetoBlog\PB.Dominio\obj\Debug\PB.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Vitor Hugo\source\repos\ProjetoBlog\PB.Dominio\obj\Debug\PB.Dominio.dll
+C:\Users\Vitor Hugo\source\repos\ProjetoBlog\PB.Dominio\obj\Debug\PB.Dominio.pdb

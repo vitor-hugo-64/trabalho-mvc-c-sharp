@@ -1,0 +1,43 @@
+﻿
+@{
+    ViewBag.Title = "Informations";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12 my-2">
+            <div class="card">
+                <div class="card-body">
+                    <h2 class="text-center mb-4">Informações</h2>
+                    
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Descrição </th>
+                                <th>Dados </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    Números de visualizações do blog
+                                </td>
+                                <td>
+                                    @ViewBag.views
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Número de postagens do blog
+                                </td>
+                                <td>
+                                    @ViewBag.postings
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+

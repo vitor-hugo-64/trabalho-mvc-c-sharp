@@ -1,0 +1,12 @@
+﻿@model PB.Domain.Subject
+@{
+    ViewBag.Title = "Test";
+}
+
+<h2>Test</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.DropDownListFor(Model => Model.subject_code, new SelectList(ViewBag.Subjects, "subject_code", "description"))
+}
+

@@ -1,0 +1,6 @@
+C:\Users\Vitor Hugo\source\repos\ProjetoBlog\DB\bin\Debug\DB.dll
+C:\Users\Vitor Hugo\source\repos\ProjetoBlog\DB\bin\Debug\DB.pdb
+C:\Users\Vitor Hugo\source\repos\ProjetoBlog\DB\obj\Debug\PB.Repository.csprojAssemblyReference.cache
+C:\Users\Vitor Hugo\source\repos\ProjetoBlog\DB\obj\Debug\PB.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Vitor Hugo\source\repos\ProjetoBlog\DB\obj\Debug\DB.dll
+C:\Users\Vitor Hugo\source\repos\ProjetoBlog\DB\obj\Debug\DB.pdb

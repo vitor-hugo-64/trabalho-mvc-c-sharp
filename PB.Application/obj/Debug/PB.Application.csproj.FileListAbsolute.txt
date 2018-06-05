@@ -1,0 +1,11 @@
+C:\Users\Vitor Hugo\source\repos\ProjetoBlog\PB.Application\bin\Debug\PB.Application.dll
+C:\Users\Vitor Hugo\source\repos\ProjetoBlog\PB.Application\bin\Debug\PB.Application.pdb
+C:\Users\Vitor Hugo\source\repos\ProjetoBlog\PB.Application\bin\Debug\DB.dll
+C:\Users\Vitor Hugo\source\repos\ProjetoBlog\PB.Application\bin\Debug\PB.Dominio.dll
+C:\Users\Vitor Hugo\source\repos\ProjetoBlog\PB.Application\bin\Debug\DB.pdb
+C:\Users\Vitor Hugo\source\repos\ProjetoBlog\PB.Application\bin\Debug\PB.Dominio.pdb
+C:\Users\Vitor Hugo\source\repos\ProjetoBlog\PB.Application\obj\Debug\PB.Application.csprojAssemblyReference.cache
+C:\Users\Vitor Hugo\source\repos\ProjetoBlog\PB.Application\obj\Debug\PB.Application.csproj.CoreCompileInputs.cache
+C:\Users\Vitor Hugo\source\repos\ProjetoBlog\PB.Application\obj\Debug\PB.Application.csproj.CopyComplete
+C:\Users\Vitor Hugo\source\repos\ProjetoBlog\PB.Application\obj\Debug\PB.Application.dll
+C:\Users\Vitor Hugo\source\repos\ProjetoBlog\PB.Application\obj\Debug\PB.Application.pdb
